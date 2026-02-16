@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Woodland Park Zoo — Welcome</title>
+  <meta name="description" content="Woodland Park Zoo — animals, exhibits, tickets, visiting hours and conservation info."> 
+  
+  <link rel="stylesheet" href="./zoo.css">
+  <style>
+
+
+
+      .tickets th, .tickets td{
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .tickets th{
+        background-color: #25421e;
+        color: white;
+        font-weight: bold;
+      }
+      
+      .tickets tbody tr:nth-child(even){
+        background-color: #fafafa;
+      }
+
+      .address{
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-top: 16px;
+      }
+
+      .small{
+        margin: .25rem 0;
+        color: #666;
+        font-size: 0.9rem;
+      }
+
+      .address ul{
+        margin: 0.5rem 0 0 1rem;
+        padding-left: 1.2rem;
+      }
+
+      .address p.small{
+        margin: 0.25rem 0 0 0;
+      }
+
+      .flex-container{
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-top: 14px;
+      }
+
+      .no-bullets li{
+    list-style: none;
+    padding: 0;
+      }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  
+  <header class="header"  aria-label="Woodland Park Zoo header">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.YsJtd41rBMwWH8BZk5bWXAHaE8?pid=Api&P=0&h=180" class="logo">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">WP</div>
+      <div>
+        <h1>Woodland Park Zoo</h1>
+        <p class="small" style="color: aqua;">Seattle — Conservation, Education & Wildlife</p>
+      </div>
+    </div>
+
+    <nav class="site-nav" role="navigation" aria-label="Primary">
+      <a href="home.html">Home</a>
+      <a href="exhibits.html">Exhibits</a>
+      <a href="animals.html">Animals</a>
+      <a href="planVisit.html">Plan Visit</a>
+      <a href="education.html">Education</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  
+  <main id="main" tabindex="-1">
+
+    
+    <section id="home" class="hero" aria-labelledby="home-heading">
+      <div class="hero-card" role="region" aria-labelledby="home-heading">
+        <div class="text">
+          <p class="kicker">Welcome</p>
+          <h2 id="home-heading">Explore wildlife, learn about conservation, and plan your visit</h2>
+          <p class="meta">Woodland Park Zoo, located in Seattle, Washington, is home to immersive exhibits and hundreds of species. Enjoy keeper talks, educational workshops, and family-friendly spaces.</p>
+
+          <div class="cta">
+            <a class="btn btn-primary" href="#plan">Buy Tickets</a>
+            <a class="btn btn-info" href="#exhibits">See Exhibits</a>
+          </div>
+        </div>
+
+        <div class="visual center" aria-hidden="true">
+          
+          <div><img src="https://i.pinimg.com/1200x/7f/ee/5d/7fee5d54541f4f0cfd4d533ee917f8da.jpg" alt="woodlandparkzoo canopy" style="width:400;height:1000px;object-fit:cover;border-radius:10px;box-shadow:0 10px 30px rgba(30,60,20,0.08)"/></div>
+          <p class="small" style="margin-top:8px;color:#587a58;">Open daily • 9:30 AM — 4:00 PM</p>
+        </div>
+      </div>
+    </section>
+
+  
+    <section id="exhibits" aria-labelledby="exhibits-heading">
+      <h2 id="exhibits-heading" style="color:#25421e;margin:18px 0 10px 0;">Featured Exhibits</h2>
+      <div class="exhibits" role="list">
+
+        <article class="card" role="listitem" aria-labelledby="rain-title">
+          <img class="media" src="https://wallpaperaccess.com/full/126062.png" alt="Rainforest exhibit canopy">
+          <div class="content">
+            <h3 id="rain-title">Trophical Rainforest</h3>
+            <p>Step into a humid, living rainforest filled with birds, amphibians, reptiles, and tropical plants. Interactive displays teach conservation of tropical ecosystems.</p>
+            <div style="display:flex;gap:8px;margin-top:8px;">
+              
+            </div>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="savannah-title">
+          <img class="media" src="https://wallpapercave.com/wp/wp2459797.jpg" alt="Savannah landscape exhibit">
+          <div class="content">
+            <h3 id="savannah-title">Savannah Plains</h3>
+            <p>Wide open habitats showcase giraffes, zebras and mixed-species exhibits that model African grassland communities and their conservation needs.</p>
+            <div style="display:flex;gap:8px;margin-top:8px;">
+            
+            </div>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="Northern-title">
+          <img class="media" src="https://www.zoochat.com/community/media/northern-trail-sichuan-takin-exhibit.565331/full?d=1642951462" alt="river , rocky cliffs and aquatic habitates">
+          <div class="content">
+            <h3 id="Northern-title">Living Northern Trail</h3>
+            <p>The “Living Northwest Trail” is designed to evoke cold-climate habitats: forested taiga, mountainous / montane zones, streams and lakes, tundra-style open areas, rocky cliffs (for mountain goats), and river or aquatic habitats for species like otters and bears.</p>
+            <div style="display:flex;gap:8px;margin-top:8px;">
+              
+            </div>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="temperate-title">
+          <img class="media" src="http://www.mlewallpapers.com/image/16x10-Widescreen-7/view/Alaskan-Temperate-Rainforest-1514.jpg" alt="Red Pandas, Asian Cranes">
+          <div class="content">
+            <h3 id="temperate-title">Temperate Forest</h3>
+            <p>Our Temperate Forest zone features red pandas, Asian cranes and maned wolves in the Wildlife Survival Zone. Rather than grouping animals just by geography, the zoo uses a “bioclimatic zone” approach: animals are grouped by the type of habitat they’re adapted to.</p>
+            <div style="display:flex;gap:8px;margin-top:8px;">
+              
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    
+    <section id="animals" aria-labelledby="animals-heading" style="margin-top:22px;">
+      <h2 id="animals-heading" style="color:#25421e;margin-bottom:10px;">Animals</h2>
+
+      <div class="animal-grid" role="list">
+
+      
+        <article class="card" role="listitem" aria-labelledby="malayan-title">
+          <img class="img-round" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MalayanTiger.jpg/1280px-MalayanTiger.jpg" alt="Malayan tiger resting in habitat">
+          <div class="content">
+            <h3 id="malayan-title">Malayan Tiger <span class="small">Panthera tigris jacksoni</span></h3>
+            <p class="small">A critically endangered tiger subspecies native to Peninsular Malaysia. Conservation programs focus on anti-poaching and habitat protection.</p>
+          </div>
+        </article>
+
+        
+        <article class="card" role="listitem" aria-labelledby="tortoise-title">
+          <img class="img-round" src="https://www.birdguides-cdn.com/cdn/articles/Aldabra-Giant-Tortoise-Seychelles-Astove-Kit-Day--BH1I7562ed2560.jpg" alt="Aldabra giant tortoise">
+          <div class="content">
+            <h3 id="tortoise-title">Giant Forest Tortoise <span class="small">Aldabrachelys gigantea</span></h3>
+            <p class="small">A great longevity and important ecological roles like seed dispersal, believed to be among the most primitive of living tortoises, based on molecular and morphological</p>
+          </div>
+        </article>
+
+        
+        <article class="card" role="listitem" aria-labelledby="lion-title">
+          <img class="img-round" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Lion_%28Panthera_leo%29_male_and_cub_Etosha.jpg/1280px-Lion_%28Panthera_leo%29_male_and_cub_Etosha.jpg" alt="African lion with cub">
+          <div class="content">
+            <h3 id="lion-title">African Lion <span class="small">Panthera leo</span></h3>
+            <p class="small">Iconic savannah predator important for maintaining ecosystem balance. Lions are social cats living in prides, and are a vulnerable species due to habitat loss and human-wildlife conflict. The lion is the national animal of several African countries and is a symbol of strength and courage.</p>
+            </p>
+          </div>
+        </article>
+
+        
+        <article class="card" role="listitem" aria-labelledby="penguin-title">
+          <img class="img-round" src="https://i.natgeofe.com/k/90d21d78-3239-4792-8ac7-b211880c2ee4/Humboldt-Penguin-Line.jpg" alt="Humboldt penguins on a rocky shore">
+          <div class="content">
+            <h3 id="penguin-title">Humboldt Penguins <div> <span class="small">Spheniscus humboldti</span></div></h3>
+            <p class="small">A vulnerable coastal species depending on cold, nutrient-rich currents are good indicators of ocean health. Humboldt penguins are medium-sized, black-and-white seabirds native to the coasts of Peru and Chile, and are threatened by habitat loss and climate change.</p>
+            </p>
+          </div>
+        </article>
+
+        
+        <article class="card" role="listitem" aria-labelledby="snow-title">
+          <img class="img-round" src="https://rnz-ressh.cloudinary.com/image/upload/s--5FxiSlxE--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1681249442/4LAPL4N_Snow_Leopards_22_jpg" alt="Snow leopard in rocky high altitude habitat">
+          <div class="content">
+            <h3 id="snow-title">Snow Leopard <span class="small">Panthera uncia</span></h3>
+            <p class="small">An alpine specialist whose conservation helps protect fragile high-elevation ecosystems. Snow leopards are elusive big cats adapted to cold, mountainous habitats are vulnerable due to poaching and habitat loss.</p>
+            </p>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="rhino-title">
+          <img class="img-round" src="https://upload.wikimedia.org/wikipedia/commons/7/77/Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg" alt=" Assam Rhino Reserve">
+          <div class="content">
+            <h3 id="rhino-title">Assam Rhino <span class="small"><br>Rhinoceros unicornis </span></h3>
+            <p class="small">This rhino is a herbivore, eating grasses, leaves, and fruits, and is mostly solitary. It is found in the northeastern states of India and is a vulnerable species due to habitat loss and poaching.</p>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="zebra-title">
+          <img class="img-round" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg/500px-Equus_quagga_burchellii_-_Etosha%2C_2014.jpg" alt="plains zebra">
+          <div class="content">
+            <h3 id="zebra-title">Plains Zebra <span class="small">Equus quagga</span></h3>
+            <p class="small">The Plains Zebra is the most common and widespread species of zebra. It is known for its striking black-and-white stripes, which are unique to each individual, just like human fingerprints.</p>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="giraffe-title">
+          <img class="img-round" src="https://www.nhm.ac.uk/content/dam/nhm-www/discover/giraffes-in-wild/giraffes-wild-full-width.jpg" alt="Giraffe">
+          <div class="content">
+            <h3 id="giraffe-title">Giraffe <span class="small"> <br>Giraffa camelopardalis</span></h3>
+            <p class="small">The giraffe is the tallest land animal, with a very long neck to reach leaves on tall trees. The species is known for its distinctive spotted coat and long legs.</p>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="Jaguar-title">
+          <img class="img-round" src="https://tse1.mm.bing.net/th/id/OIP.dyJFoonbtWHynA_NIGHVDAHaE8?pid=Api&rs=1&c=1&qlt=95&h=180" alt="Jaguar">
+          <div class="content">
+            <h3 id="jaguar-title">Jaguar <span class="small">Panthera onca</span></h3>
+            <p class="small">Its distinctively marked coat features pale yellow to tan coloured fur covered by spots that transition to rosettes on the sides, although a melanistic black coat appears in some individuals.</p>
+          </div>
+        </article>
+        <article class="card" role="listitem" aria-labelledby="monkey-title">
+          <img class="img-round" src="https://www.livingdesert.org/wp-content/uploads/2025/10/2-Adult-Baby-Patas-Monkey-1.jpg" alt="monkey">
+          <div class="content">
+            <h3 id="monkey-title">Patas-Monkey <div><span class="small">Erythrocebus baumstarki</span></div></h3>
+            <p class="small">A critically endangered Monkey subspecies native to Patas-Monkey. Conservation programs focus on anti-poaching and habitat protection.</p>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="Bear-title">
+          <img class="img-round" src="https://zoo.org/wp-content/uploads/2025/08/RS43405_2022_11_21-Fern-Juniper-2-web-1024x683.jpg" alt="Bear">
+          <div class="content">
+            <h3 id="Bear-title">Brown Bear <span class="small"> <br>Ursus arctos</span></h3>
+            <p class="small">The fur ranges in color from cream to reddish to dark brown. Of the land carnivorans, it is rivaled in size only by its closest relative, the polar bear, which is much less variable in size and slightly bigger average.</p>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="manedWolf-title">
+          <img class="img-round" src="https://www.fws.gov/sites/default/files/banner_images/2022-07/maned-wolf.jpg" alt="maned wolf">
+          <div class="content">
+            <h3 id="manedWolf-title">Maned Wolf <span class="small">Chrysocyon brachyurus</span></h3>
+            <p class="small">The maned wolf's footprints are similar to those of the dog, but have disproportionately small plantar pads when compared to the well-opened digit marks. The maned wolf is the only species in the genus Chrysocyon.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    
+    <section id="plan" aria-labelledby="plan-heading" style="margin-top:22px; padding: 20px; background-color: #f9f9f9; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <h2 id="plan-heading" style="color:#25421e;margin-bottom:10px; border-bottom: 2px; padding-bottom: 5px;">Plan Your Visit</h2>
+
+      <div class="table-wrap" style="overflow-x: auto;">
+        <table class="tickets" style="width: 100%; border-collapse: collapse; margin-top: 10px;" role="table" aria-label="Ticket prices">
+          <thead>
+            <tr>
+              <th scope="col">Category</th>
+              <th scope="col">Price (USD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Adult (18–64)</td> <td>$18</td></tr>
+            <tr><td>Child (3–17)</td> <td>$10</td></tr>
+            <tr><td>Senior (65+)</td> <td>$14</td></tr>
+            <tr><td>Under 3</td> <td>Free</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:14px;">
+        <div class="address">
+         <center> <strong>Getting Here</strong>
+          <p class="small" style="margin:.25rem 0 0 0;">
+<b>Address:</b> Woodland Park, Seattle, Washington, USA <br>
+<b>By car:</b> parking available. By public transport: local bus lines stop nearby.</p></center>
+        </div>
+<br>
+        <div class="address">
+          <center><strong>Facilities</strong>
+          <ul class="no-bullets" style="margin:.5rem 0 0 1rem;padding-left:1.2rem;">
+            <li class="small">Accessible restrooms and paths</li>
+            <li class="small">On-site café and picnic areas & Gift shop</li>
+          </ul>
+        </div></center>
+      </div>
+    </section>
+
+<br>  
+    <section id="education" aria-labelledby="edu-heading" style="margin-top:22px;">
+      <h2 id="edu-heading" style="color:#25421e;margin-bottom:10px;">Education & Conservation</h2>
+
+      <div class="card" style="padding:16px;">
+        <p class="small" style="margin-top:0;">Our programs focus on conservation science, habitat restoration, and community education. Join keeper talks, school visits, workshops and volunteer opportunities.</p>
+        <ul class="no-bullets" style="margin:10px 0 0 1.1rem;">
+          <li class="small">Keeper talks — daily at 10:00 AM and 2:00 PM</li>
+          <li class="small">School visits & workshops — book in advance</li>
+          <li class="small">Volunteer & citizen science opportunities</li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <section id="contact" aria-labelledby="contact-heading" style="margin-top:22px;">
+      <h2 id="contact-heading" style="color:#25421e;margin-bottom:10px;">Contact & Support</h2>
+
+      <div class="contact-grid">
+        <div class="address">
+          <strong>Woodland Park Zoo</strong>
+          <p class="small" style="margin:.25rem 0 0 0;">Woodland Park, Seattle, Washington, USA</p>
+          <p class="small" style="margin:.25rem 0 0 0;">Phone: +1 206-548-2500</p>
+          <p class="small" style="margin:.25rem 0 0 0;">Email: <a href="mailto:info@woodlandparkzoo.org">info@woodlandparkzoo.org</a></p>
+        </div>
+
+        <div class="address" aria-hidden="false">
+          <strong>Opening Times</strong>
+          <p class="small" style="margin:.25rem 0 0 0;">Daily: 9:30 AM — 4:00 PM</p>
+          <p class="small" style="margin:.25rem 0 0 0;">Ticket office closes at 3:30 PM</p>
+          
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  
+  <footer class="site-footer" role="contentinfo" aria-label="Site footer" style="margin-top:20px;">
+    <p style="margin:0;">&copy; <span id="yr"></span> Woodland Park Zoo. All rights reserved.</p>
+    <p style="margin:6px 0 0 0;font-size:13px;opacity:.9;">Built with a nature-inspired design • Accessible & responsive</p>
+  </footer>
+
+</div>
+</body>
+</html>
